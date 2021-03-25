@@ -1,0 +1,227 @@
+
+/* defolt-css */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+}
+.clerfix::after{
+    content: "";
+    clear: both;
+    display: block;   
+}
+.text-center{
+    text-align: center;
+}
+.text-right{
+    text-align: right;
+}
+.text-left{
+    text-align-last: left;
+}
+.fixwithd{
+ width: 1200px;
+ margin: auto;
+}
+
+
+/* header-section */
+.header-manu{
+    background-color: #1abc9c;
+}
+.header-left {
+	float: left;
+	width: 30%;
+	color: white;
+    margin: 27px 50px;
+    font-size: 20px;
+}
+.header-right {
+	float: right;
+	margin-right: 22px;
+  
+}
+.header-right i {
+	position: absolute;
+	margin-top: -5%;
+	margin-left: 64%;
+	color: #ddd;
+	font-size: 33px;
+    cursor: pointer;
+    position: relative;
+}
+
+/* .header-right ul{
+    position: relative;
+} */
+.header-right ul li {
+	display: inline-block;
+	margin: 17px 10px;
+	padding: 10px 4px;
+}
+.header-right ul li a {
+	color: white;
+	text-decoration: none;
+    font-size: 13px;
+}
+.header-right ul li a:hover{
+    color: rgb(36, 161, 192);
+}
+
+
+/* slider-section */
+.slider-section {
+	background: url(./ymnbnh5j.bmp) no-repeat center;
+	background-size: cover;
+	background-attachment: fixed;
+	padding: 240px 0;
+	text-align: center;
+	color: white;
+}
+
+
+/* service-section */
+.slider-section h5 {
+	font-size: 45px;
+}
+.slider-section p {
+    margin: 25px 0 50px;
+}
+.slider-section a {
+	text-decoration: none;
+	color: white;
+	border: 1px solid;
+	padding: 9px 19px;
+    border-radius: 5px;
+    position: relative;
+    z-index: 1;
+    /* opacity: 1;
+    visibility: hidden;
+    transition: .4s; */
+}
+.slider-section a::after{
+    content: "";
+    width: 100%;
+    height: 0;
+    top: 0;
+    left: 0;
+    background-color: rgb(56, 80, 87);
+    transition: .4s;
+    /* opacity: 1;
+    visibility: visible; */
+    position: absolute;
+    z-index: -1;
+}
+.slider-section a:hover::after{
+    height: 100%;
+}
+.logo h5 {
+	font-size: 30px;
+	margin: 71px 0 21px;
+}
+.fonts {
+	width: 25%;
+	margin-top: 84px;
+	float: left;
+ 
+}
+ 
+.fonts span {
+	font-size: 52px;
+    color: #1abc9c;
+ 
+}
+.fonts h4 {
+	font-size: 25px;
+	margin: 30px 0 12px;
+}
+ .fonts span i:hover{
+    color: rgb(120, 131, 57);
+}
+.rol {
+	border-bottom: 2px solid #1abc9c;
+	margin-top: 6%;
+}
+/* about-section */
+.about h5 {
+	font-size: 30px;
+	margin: 54px 0 14px;
+}
+ 
+ /* banner-part */
+ .banner-part{
+     margin-top: 55px;
+ }
+ .image img {
+	width: 48%;
+	float: left;
+	height: 316px;
+}
+.what-we-do {
+	float: right;
+	width: 40%;
+	margin-right: 60px;
+}
+.what-we-do h5 {
+	margin: 10px 0;
+}
+.what-we-do:hover{
+    color: #1abc9c;
+}
+
+/* .contet-section */
+.contet-section{
+     background-color: #ddd;
+     padding-bottom: 36px;
+}
+.local{
+    float: left;
+    width: 33.3%;
+}
+.local i{
+    color: #1abc9c;
+}
+.local span i:hover{
+    color: rgb(120, 131, 57);
+}
+.cfw{
+    width: 1100px;
+    margin: auto;
+}
+.contect {
+    padding: 23px;
+    margin-top: 50px;
+}
+.contect h5{
+    margin: 30px 0 15px;
+    font-size: 20px;
+}
+/* .soceyal-section */
+.soceyal-section {
+	background-color: #1abc9c;
+}
+.soceyal-section ul{
+    
+}
+.soceyal-section ul li{
+    display: inline-block;
+}
+.soceyal-section ul li a {
+	color: #fff;
+	margin: 10px 10px;
+	padding: 10px;
+    display: block;
+    transition: .4s;
+}
+.soceyal-section ul li a:hover{
+    color: #5a7a00;
+}
+
+
+/* footer */
+.footer {
+	background-color: rgb(26, 22, 22);
+	color: #736d6d;
+	padding: 14px 0;
+	 
+}
